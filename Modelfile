@@ -1,5 +1,5 @@
 # A modelfile for a comprehensive, multi-purpose software engineering assistant.
-FROM llama3
+FROM gpt-oss:latest
 
 # Set a low temperature for more focused and predictable output.
 PARAMETER temperature 0.25
